@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(132, 140, 161);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 350px;
+    height: 400px;
+    background-color:  rgb(44, 41, 41);
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="password"]{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+label{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.btn{
+    text-align: center;
+    margin-bottom: 5px;
+}
+button{
+    padding: 8px 18px;
+    background-color: rgb(57, 149, 198);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(34, 119, 175);
+}
+p{
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+}
+p a{
+    color: white;
+    text-decoration: none;
+}
+ p a:hover{
+    color: rgb(57, 149, 198);
+    text-decoration: underline;
+}
